@@ -12,5 +12,6 @@ router
   .get('/users', user.getUsers)
   .get('/user/:id', user.getUser)
   .patch('/user/:id', user.patchUser)
+  .delete('/user/:id', user.deleteUser)
 
 export { router }
